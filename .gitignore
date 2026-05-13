@@ -1,0 +1,28 @@
+# --- Python & Virtual Environments ---
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# --- ML Models & Large Data ---
+# Exclude heavy model weights (keep these local)
+*.pth
+*.h5
+*.pkl
+*.onnx
+# Exclude datasets
+data/
+datasets/
+raw_audio/
+captured_faces/
+
+# --- IDE & System Files ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Logs & Performance ---
+logs/
+*.log
+*.zip
